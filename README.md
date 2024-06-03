@@ -83,8 +83,7 @@ Note that this will take at least `2 * SAMPLES * t` ms to evaluate.
 Chroot
 ------
 
-[lua-setuid]: https://github.com/mikejsavage/lua-setuid
-[test-chroot]: https://github.com/mikejsavage/lua-bcrypt/blob/master/test-chroot.lua
+[lua-setuid]: https://github.com/drylikov/Lua_setuid
 
 Some operating systems do not provide a method for reliably getting
 random data from inside a chroot. One workaround for this is to chroot
@@ -105,4 +104,3 @@ non-bleeding-edge (earlier than 3.17) Linux kernels, you can run:
 	mkdir /path/to/chroot/dev
 	mknod -m 644 /path/to/chroot/dev/urandom c 1 9
 
-I have included a test script in [`test-chroot.lua`][test-chroot]. 
