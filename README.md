@@ -21,13 +21,13 @@ license][ISC].
 Installation
 ------------
 
-	$ luarocks install bcrypt
+	$ luarocks install Lua_bcrypt
 
 
 Usage
 -----
 
-	local bcrypt = require( "bcrypt" )
+	local bcrypt = require( "Lua_bcrypt" )
 	
 	-- Bigger numbers here will make your digest exponentially harder to compute
 	local log_rounds = 9
